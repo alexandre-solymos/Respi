@@ -15,6 +15,12 @@ Le container est défini sur une largeur maximale de 90% environ 960px, mais vou
 Il prend en compte le reset CSS +  Le système de grid
 
 ## Comment il fonctionne ?
+
+<p>col-1-m = mobile</p> 
+<p>col-1-t = Tablette</p> 
+<p>col-1   = Desktop</p> 
+
+
 > MOBILE
 
 ```css
