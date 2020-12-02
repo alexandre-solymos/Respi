@@ -4,10 +4,13 @@
 Besoin d'un Framework CSS pour la gestion d'une grille ?
 12 colonnes par défaut
 
-`#La version minifier & la version sccs seront dans les mois à venir`
+`#La version sccs seront dans les mois à venir`
 
+## DESCRIPTIF
 L'objectif ici est de faire du mobile first ou du responsive rapidement.
-
+Une CSS légère à 12 colonnes pour vous aider à créer rapidement des sites Web réactifs.
+Chaque colonne est contenue dans des lignes, qui sont contenues est dans un container. 
+Le container est défini sur une largeur maximale de 960 px, mais vous pouvez le modifier rapidement.
 
 ## Comment il fonctionne ?
 > MOBILE
@@ -42,6 +45,7 @@ L'objectif ici est de faire du mobile first ou du responsive rapidement.
 > DESKTOP
 
 ```css
+
 	.col-1 {
 		width: 4.33%;
 	  }
