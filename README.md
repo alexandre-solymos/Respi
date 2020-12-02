@@ -12,6 +12,8 @@ Une CSS légère à 12 colonnes pour vous aider à créer rapidement des sites W
 Chaque colonne est contenue dans des lignes, qui sont contenues est dans un container. 
 Le container est défini sur une largeur maximale de 90% environ 960px, mais vous pouvez le modifier rapidement.
 
+Il prend en compte le reset CSS +  Le système de grid
+
 ## Comment il fonctionne ?
 > MOBILE
 
