@@ -4,7 +4,7 @@
 Besoin d'un Framework CSS pour la gestion d'une grille ?
 12 colonnes par défaut
 
-`#La version sccs est pour bientôt
+`#La version sccs est en phase de processus`
 
 ## DESCRIPTIF
 L'objectif ici est de faire du mobile first ou du responsive rapidement.
