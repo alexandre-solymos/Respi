@@ -1,5 +1,5 @@
 /*!
- * Tifly v1.0.0.0
+ * Tifly v1.1.1.0
  * Copyright 2020-2021
  * Licensed under MIT (https://github.com/
  * With 
@@ -276,4 +276,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     .hidden-sm {
       display: block;
     }
+  }
+  
+  @media only screen and (min-width: 75em) {
+    /* 1200px */
   }
