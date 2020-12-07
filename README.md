@@ -1,5 +1,5 @@
 ## Tifly FR
-`1.1.1.0`
+`1.2.0.0`Voir la nouvelle version
 
 Besoin d'un Framework CSS pour la gestion d'une grille ?
 12 colonnes par défaut
@@ -19,6 +19,7 @@ Il prend en compte le reset CSS +  Le système de grid
 <p>col-1-m = mobile</p> 
 <p>col-1-t = Tablette</p> 
 <p>col-1   = Desktop</p> 
+<p>col-1-l = Desktop - Tv Extra large</p> 
 
 
 > MOBILE
@@ -134,6 +135,14 @@ Ici chaque div prend 6 colonnes, donc le positionnement sera effective sur deux 
 <div>
 <img src="https://i.ibb.co/q7pkYvc/desktop.png"  width="50%" alt="kross portfolio template by themefisher">
 </div>
+
+## MAJ 
+
+`1.2.0.0`
+- Ajout de col-l Objectif mettre en place le responsive également sur les écrans de minimum 1200 px
+
+PROCHAINEMENT
+Root + Couleurs
 
 ## SUPPORT & QUESTION
 
