@@ -1,5 +1,5 @@
 /*!
- * Tifly v1.1.1.0
+ * Tifly v1.1.2.0
  * Copyright 2020-2021
  * Licensed under MIT (https://github.com/
  * With 
@@ -278,6 +278,59 @@ table {
   
     
   @media only screen and (min-width: 75em) {
-    /* 1200px */
+	/* 1200px 
+	* Pas obligatoire mais peut etre utile
+	*/
   
+	.col-1-l {
+		width: 4.33%;
+	  }
+	
+	  .col-2-l {
+		width: 12.66%;
+	  }
+	
+	  .col-3-l {
+		width: 21%;
+	  }
+	
+	  .col-4-l {
+		width: 29.33%;
+	  }
+	
+	  .col-5-l {
+		width: 37.66%;
+	  }
+	
+	  .col-6-l {
+		width: 46%;
+	  }
+	
+	  .col-7-l {
+		width: 54.33%;
+	  }
+	
+	  .col-8-l {
+		width: 62.66%;
+	  }
+	
+	  .col-9-l {
+		width: 71%;
+	  }
+	
+	  .col-10-l {
+		width: 79.33%;
+	  }
+	
+	  .col-11-l {
+		width: 87.66%;
+	  }
+	
+	  .col-12-l {
+		width: 96%;
+	  }
+	
+	  .hidden-l {
+		display: block;
+	  }
   }
