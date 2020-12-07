@@ -8,7 +8,7 @@ Besoin d'un Framework CSS pour la gestion d'une grille ?
 
 ## DESCRIPTIF
 L'objectif ici est de faire du mobile first ou du responsive rapidement.
-Une CSS légère à 12 colonnes pour vous aider à créer rapidement des sites Web réactifs.
+Une CSS légèr à 12 colonnes pour vous aider à créer rapidement des sites Web réactifs.
 Chaque colonne est contenue dans des lignes, qui sont contenues est dans un container. 
 Le container est défini sur une largeur maximale de 90% environ 960px, mais vous pouvez le modifier rapidement.
 
