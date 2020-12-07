@@ -1,8 +1,8 @@
 ## Tifly FR
-`1.2.0.0`Voir la nouvelle version
+`1.2.0.0`NOUVEAU !
 
 Besoin d'un Framework CSS pour la gestion d'une grille ?
-12 colonnes par défaut
+12 colonnes par défaut prochaines l'ajout de root pour l'utilisation des couleurs courantes
 
 `#La version sccs est en phase de processus`
 
