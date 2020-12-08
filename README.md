@@ -17,7 +17,8 @@ Il prend en compte le reset CSS +  Le système de grid
 ## Comment il fonctionne ?
 
 Télécharge le Fichier CSS et ajoute le à ton site ou ajoute le link directement !
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alexandre427/tifly/tifly.css">
+```<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alexandre427/tifly/tifly.css">
+```
 
 <p>col-1-m = mobile</p> 
 <p>col-1-t = Tablette</p> 
