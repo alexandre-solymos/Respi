@@ -1,16 +1,31 @@
 /*!
- * Tifly v1.1.2.0
+ * Tifly v1.1.3.0
  * Copyright 2020-2021
- * Licensed under MIT (https://github.com/
+ * Licensed under MIT (https://github.com/alexandre-solymos
  * With 
  * http://meyerweb.com/eric/tools/css/reset/ 
    Reset CSS
 */
 
+/* COLORS */
+/* Ici vous pouvez changez vos couleurs par défauts */
+
+
+:root {
+	--main-color: #fff;
+	--bg-color: #fff;
+	--text-color: #fff;
+	--white: #fff;
+	--black: #000;
+}
+
+/* Utilisation exemple : background-color: var(--black); */
+
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, address, strong,
-b, u, i, center, dt, ol, ul, li,
+b, u, i, dt, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, thead, tr, th, td,
 article,
