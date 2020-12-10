@@ -1,10 +1,12 @@
 ## Tifly FR
-`1.2.0.0`NOUVEAU !
+`1.3.0.0`NOUVEAU !
 
 Besoin d'un Framework CSS pour la gestion d'une grille ?
 12 colonnes par défaut prochainement l'ajout de root pour l'utilisation des couleurs courantes
 
-`#La version sccs est en phase de processus`
+`#CSS  V-1.3.0.0
+`#SCSS V-1.2.0.0
+
 
 ## DESCRIPTIF
 L'objectif ici est de faire du mobile first ou du responsive rapidement.
