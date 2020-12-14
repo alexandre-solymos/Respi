@@ -26,7 +26,7 @@ Télécharge le Fichier CSS et ajoute le à ton site ou ajoute le link directeme
 <p>col-1-m = mobile</p> 
 <p>col-1-t = Tablette</p> 
 <p>col-1   = Desktop</p> 
-<p>col-1-l = Desktop - Tv Extra large</p> 
+<p>col-1-l = Desktop - Tv Extra large OPTIONNEL</p> 
 
 
 > MOBILE
