@@ -20,7 +20,7 @@ Il prend en compte le reset CSS +  Le système de grid
 
 Télécharge le Fichier CSS et ajoute le à ton site ou ajoute le link directement !
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alexandre-solymos/tifly/tifly.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alexandre-solymos/tifly/tifly-link.css">
 ```
 
 <p>col-1-m = mobile</p> 
