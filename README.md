@@ -1,10 +1,10 @@
 ## Tifly FR
-`1.3.0.0`NOUVEAU !
+`1.4.0.0`NOUVEAU !
 
 Besoin d'un Framework CSS pour la gestion d'une grille ?
 12 colonnes par défaut prochainement l'ajout de root pour l'utilisation des couleurs courantes
 
-`#CSS  V-1.3.0.0
+`#CSS  V-1.4.0.0
 `#SCSS V-1.2.0.0
 
 
@@ -26,18 +26,18 @@ Télécharge le Fichier CSS et ajoute le à ton site ou ajoute le link directeme
 <p>col-1-m = mobile</p> 
 <p>col-1-t = Tablette</p> 
 <p>col-1   = Desktop</p> 
-<p>col-1-l = Desktop - Tv Extra large OPTIONNEL</p> 
+<p>col-1-l = Desktop - Tv Extra large</p> 
 
 
 > MOBILE
 
 ```css
  .col-1-m {
-	width: 4.33%;
+	width: 8.33%;
   }
   
   .col-2-m {
-	width: 12.66%;
+	width: 16.66%;
   }
   
 .....
@@ -48,11 +48,11 @@ Télécharge le Fichier CSS et ajoute le à ton site ou ajoute le link directeme
 ```css
  @media only screen and (min-width: 45em) {  /* 720px */
 	.col-1-t {
-		width: 4.33%;
+		width: 8.33%;
 	  }
 	
 	  .col-2-t {
-		width: 12.66%;
+		width: 16.66%;
 	  }
 .....
 ```
@@ -63,15 +63,15 @@ Télécharge le Fichier CSS et ajoute le à ton site ou ajoute le link directeme
 ```css
 
 	.col-1 {
-		width: 4.33%;
+		width: 8.33%;
 	  }
 	
 	  .col-2 {
-		width: 12.66%;
+		width: 16.66%;
 	  }
 	
 	  .col-3 {
-		width: 21%;
+		width: 25%;
 	  }
 .....
 ```
@@ -144,6 +144,14 @@ Ici chaque div prend 6 colonnes, donc le positionnement sera effective sur deux 
 </div>
 
 ## MAJ 
+
+`1.4.0.0`
+- Modification importante du responsive afin d'avoir plusieurs type de container :
+  Full à 100% ou à 95% + Ajout d'un document html test
+  Position fixed pour un menu ou autre
+
+`1.3.0.0`
+- Modification du Responsive et ajout de root
 
 `1.2.0.0`
 - Ajout de col-l Objectif mettre en place le responsive également sur les écrans de minimum 1200 px
