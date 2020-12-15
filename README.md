@@ -5,6 +5,7 @@ Besoin d'un Framework CSS pour la gestion d'une grille ?
 12 colonnes par défaut prochainement l'ajout de root pour l'utilisation des couleurs courantes
 
 `#CSS  V-1.4.0.0
+
 `#SCSS V-1.2.0.0
 
 
@@ -15,6 +16,8 @@ Chaque colonne est contenue dans des lignes, qui sont contenues est dans un cont
 Le container est défini sur une largeur maximale de 90% environ 960px, mais vous pouvez le modifier rapidement.
 
 Il prend en compte le reset CSS +  Le système de grid
+DEMO :  https://jsfiddle.net/u2a0ob31/5/
+
 
 ## Comment il fonctionne ?
 
