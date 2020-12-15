@@ -1,5 +1,5 @@
 /*!
- * Tifly v1.1.3.0
+ * Tifly v1.1.4.0
  * Copyright 2020-2021
  * Licensed under MIT (https://github.com/alexandre-solymos
  * With 
@@ -12,8 +12,8 @@
 
 
 :root {
-	--main-color: #fff;
-	--bg-color: #fff;
+	--main-color: #f3f2f0;
+	--red-color: #e12c2c;
 	--text-color: #fff;
 	--white: #fff;
 	--black: #000;
@@ -37,7 +37,9 @@ time, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-decoration: none;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -84,6 +86,43 @@ table {
 	text-align: justify;
   }
 
+  .flex {
+    display: flex;
+  }
+
+  .fixed {
+	position: fixed;
+	margin: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .fixed div {
+	background: black;
+  }
+
+  /* MARGE */
+  .mt {
+      margin-top: 3em;
+  }
+  .ml {
+    margin-left: 1em;
+  }
+
+
+  .box-row {
+	box-sizing: border-box;
+    min-height: 1rem;
+    margin-bottom: 0;
+    background: #007FFF;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    overflow: hidden;
+    text-align: center;
+	color: #fff;
+}
+
   
   
   /* ==== GRID SYSTEM ==== */
@@ -93,17 +132,24 @@ table {
 	margin-left: auto;
 	margin-right: auto;
   }
+
+  .container-all {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+  }
   
   .row {
 	position: relative;
 	width: 100%;
   }
+
   
   .row [class^="col"] {
 	float: left;
-	margin: 0.5rem 2%;
 	min-height: 0.125rem;
   }
+
   
   .col-1, .col-2,
   .col-3, .col-4,
@@ -111,55 +157,55 @@ table {
   .col-7, .col-8,
   .col-9, .col-10,
   .col-11,.col-12 {
-	width: 96%;
+	width: 100%;
   }
   
   .col-1-m {
-	width: 4.33%;
+	width: 8.33%;
   }
   
   .col-2-m {
-	width: 12.66%;
+	width: 16.66%;
   }
   
   .col-3-m {
-	width: 21%;
+	width: 25%;
   }
   
   .col-4-m {
-	width: 29.33%;
+	width: 33.33%;
   }
   
   .col-5-m {
-	width: 37.66%;
+	width: 41.66%;
   }
   
   .col-6-m {
-	width: 46%;
+	width: 50%;
   }
   
   .col-7-m {
-	width: 54.33%;
+	width: 58.33%;
   }
   
   .col-8-m {
-	width: 62.66%;
+	width: 66.66%;
   }
   
   .col-9-m {
-	width: 71%;
+	width: 75%;
   }
   
   .col-10-m {
-	width: 79.33%;
+	width: 83.33%;
   }
   
   .col-11-m {
-	width: 87.66%;
+	width: 91.66%;
   }
   
   .col-12-m {
-	width: 96%;
+	width: 100%;
   }
   
   .row::after {
@@ -180,51 +226,51 @@ table {
   
   @media only screen and (min-width: 45em) {  /* 720px */
 	.col-1-t {
-		width: 4.33%;
+		width: 8.33%;
 	  }
-	
+	  
 	  .col-2-t {
-		width: 12.66%;
+		width: 16.66%;
 	  }
-	
+	  
 	  .col-3-t {
-		width: 21%;
+		width: 25%;
 	  }
-	
+	  
 	  .col-4-t {
-		width: 29.33%;
+		width: 33.33%;
 	  }
-	
+	  
 	  .col-5-t {
-		width: 37.66%;
+		width: 41.66%;
 	  }
-	
+	  
 	  .col-6-t {
-		width: 46%;
+		width: 50%;
 	  }
-	
+	  
 	  .col-7-t {
-		width: 54.33%;
+		width: 58.33%;
 	  }
-	
+	  
 	  .col-8-t {
-		width: 62.66%;
+		width: 66.66%;
 	  }
-	
+	  
 	  .col-9-t {
-		width: 71%;
+		width: 75%;
 	  }
-	
+	  
 	  .col-10-t {
-		width: 79.33%;
+		width: 83.33%;
 	  }
-	
-	  .col-11 {
-		width: 87.66%;
+	  
+	  .col-11-t {
+		width: 91.66%;
 	  }
-	
+	  
 	  .col-12-t {
-		width: 96%;
+		width: 100%;
 	  }
 	
 	  .hidden-t {
@@ -239,51 +285,51 @@ table {
 	}
 
 	.col-1 {
-		width: 4.33%;
+		width: 8.33%;
 	  }
 	
 	  .col-2 {
-		width: 12.66%;
+		width: 16.66%;
 	  }
 	
 	  .col-3 {
-		width: 21%;
+		width: 25%;
 	  }
 	
 	  .col-4 {
-		width: 29.33%;
+		width: 33.33%;
 	  }
 	
 	  .col-5 {
-		width: 37.66%;
+		width: 41.66%;
 	  }
 	
 	  .col-6 {
-		width: 46%;
+		width: 50%;
 	  }
 	
 	  .col-7 {
-		width: 54.33%;
+		width: 58.33%;
 	  }
 	
 	  .col-8 {
-		width: 62.66%;
+		width: 66.66%;
 	  }
 	
 	  .col-9 {
-		width: 71%;
+		width: 75%;
 	  }
 	
 	  .col-10 {
-		width: 79.33%;
+		width: 83.33%;
 	  }
 	
 	  .col-11 {
-		width: 87.66%;
+		width: 91.66%;
 	  }
 	
 	  .col-12 {
-		width: 96%;
+		width: 100%;
 	  }
 	
 	  .hidden {
@@ -298,54 +344,66 @@ table {
 	*/
   
 	.col-1-l {
-		width: 4.33%;
+		width: 8.33%;
 	  }
 	
 	  .col-2-l {
-		width: 12.66%;
+		width: 16.66%;
 	  }
 	
 	  .col-3-l {
-		width: 21%;
+		width: 25%;
 	  }
 	
 	  .col-4-l {
-		width: 29.33%;
+		width: 33.33%;
 	  }
 	
 	  .col-5-l {
-		width: 37.66%;
+		width: 41.66%;
 	  }
 	
 	  .col-6-l {
-		width: 46%;
+		width: 50%;
 	  }
 	
 	  .col-7-l {
-		width: 54.33%;
+		width: 58.33%;
 	  }
 	
 	  .col-8-l {
-		width: 62.66%;
+		width: 66.66%;
 	  }
 	
 	  .col-9-l {
-		width: 71%;
+		width: 75%;
 	  }
 	
 	  .col-10-l {
-		width: 79.33%;
+		width: 83.33%;
 	  }
 	
 	  .col-11-l {
-		width: 87.66%;
+		width: 91.66%;
 	  }
 	
 	  .col-12-l {
-		width: 96%;
+		width: 100%;
 	  }
 	
 	  .hidden-l {
 		display: block;
 	  }
+  }
+
+  .hello {
+    background-color: #e12c2c;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #e12c2c;
+    padding: 1rem 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-radius: 2rem;
+    transition: all .3s;
   }
