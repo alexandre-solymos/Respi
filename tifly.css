@@ -1,5 +1,5 @@
 /*!
- * Tifly v1.1.4.0
+ * Tifly v1.4.0.0
  * Copyright 2020-2021
  * Licensed under MIT (https://github.com/alexandre-solymos
  * With 
@@ -394,16 +394,4 @@ table {
 	  .hidden-l {
 		display: block;
 	  }
-  }
-
-  .hello {
-    background-color: #e12c2c;
-    color: #fff;
-    text-decoration: none;
-    border: 2px solid #e12c2c;
-    padding: 1rem 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    border-radius: 2rem;
-    transition: all .3s;
   }
