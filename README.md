@@ -2,7 +2,6 @@
 `1.4.0.0`NOUVEAU !
 
 Besoin d'un Framework CSS pour la gestion d'une grille ?
-12 colonnes par défaut prochainement l'ajout de root pour l'utilisation des couleurs courantes
 
 `#CSS  V-1.4.0.0
 
@@ -159,7 +158,11 @@ Ici chaque div prend 6 colonnes, donc le positionnement sera effective sur deux 
 - Ajout de col-l Objectif mettre en place le responsive également sur les écrans de minimum 1200 px
 
 PROCHAINEMENT
-Root + Couleurs
+- Creation de root pour la fontsize .
+- Creation boutton adaptable.
+- Cration d'annimation épuré .
+- Possibilité d'icon inclus.
+- Possibilité également d'ajouter du flex.
 
 ## SUPPORT & QUESTION
 
