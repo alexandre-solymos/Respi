@@ -6,7 +6,6 @@ Besoin d'un Framework CSS pour la gestion d'une grille ?
 
 `#CSS  V-1.4.0.0
 
-`#SCSS V-1.2.0.0
 
 
 ## DESCRIPTIF
