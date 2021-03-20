@@ -274,7 +274,7 @@ table {
 	  }
 	
 	  .hidden-t {
-		display: block;
+		display: none;
 	  }
   }
   
@@ -333,7 +333,7 @@ table {
 	  }
 	
 	  .hidden {
-		display: block;
+		display: none;
 	  }
   }
   
@@ -392,6 +392,6 @@ table {
 	  }
 	
 	  .hidden-l {
-		display: block;
+		display: none;
 	  }
   }
