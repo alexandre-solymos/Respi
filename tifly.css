@@ -214,10 +214,7 @@ table {
 	  clear: both;
   }
   
-  .hidden-m {
-	display: none;
-  }
-  
+ 
   @media only screen and (min-width: 33.75em) {  /* 540px */
 	.container {
 	  width: 80%;
@@ -273,9 +270,6 @@ table {
 		width: 100%;
 	  }
 	
-	  .hidden-t {
-		display: none;
-	  }
   }
   
   @media only screen and (min-width: 60em) { /* 960px */
@@ -332,9 +326,6 @@ table {
 		width: 100%;
 	  }
 	
-	  .hidden {
-		display: none;
-	  }
   }
   
     
@@ -391,7 +382,4 @@ table {
 		width: 100%;
 	  }
 	
-	  .hidden-l {
-		display: none;
-	  }
   }
