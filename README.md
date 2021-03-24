@@ -1,4 +1,4 @@
-## Tifly FR
+## Respi CSS FR
 `1.4.0.0`NOUVEAU !
 
 Besoin d'un Framework CSS pour la gestion d'une grille ?
@@ -170,4 +170,4 @@ Si vous avez des questions ou avez besoin d'aide vous pouvez ouvrir un problème
 
 ## LICENCES
 
-- Copyright 2020 Alexandre Solymos ()
+- Copyright 2021 Alexandre Solymos ()
