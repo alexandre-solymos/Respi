@@ -21,7 +21,7 @@ DEMO :  https://jsfiddle.net/u2a0ob31/5/
 
 Télécharge le Fichier CSS et ajoute le à ton site ou ajoute le link directement !
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alexandre-solymos/tifly/tifly-link.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alexandre-solymos/Respi/respi-link.css">
 ```
 
 <p>col-1-m = mobile</p> 
